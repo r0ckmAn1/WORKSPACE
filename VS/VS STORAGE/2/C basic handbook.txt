@@ -1,0 +1,56 @@
+C basic handbook
+
+        basic syntax is as follows 
+        #include <stdio.h>    // Preprocessor directive provides standard libraries
+        int main() {          // Main function function start point
+           blah blah blah Code goes here
+           return 0;         // Return statement ending the code
+
+        }
+
+
+data output manipulation method
+int gives a whole integer
+float gives upto two decimal ig
+char gives character like A
+double twice the number of decimals in floating point
+
+
+
+
+variables
+declaration int number = 5
+here number is the nickname or title given to the integer 5
+constant declaration const float ABC = 7.7891234
+
+printf print formatted variable
+scanf scans variable in the terminal and packs in formatted chunks
+
+Operators:
+Arithmetic: +, -, *, /, %
+Relational: ==, !=, >, <, >=, <=
+Logical: &&, ||, !
+
+Formatter
+Integer Specifiers:
+%d for signed integer (base 10).
+%u for unsigned integer.
+%o for octal (base 8) integer.
+%x or %X for hexadecimal (base 16) integer.
+
+Floating-Point Specifiers:
+%f for float/double (decimal format).
+%e or %E for scientific notation.
+%g or %G for general format (chooses between decimal and scientific notation).
+
+Character Specifiers:
+%c for single character.
+
+String Specifiers:
+%s for string of characters.
+
+Pointer Specifier:
+%p for memory address or pointer.
+
+Length Modifiers:
+Used with specifiers for longer or shorter integer types, e.g., %ld for long int, %hd for short int, etc.
