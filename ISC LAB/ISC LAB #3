@@ -1,0 +1,6 @@
+1. Create a file1 and File2 using cat command
+  cat>file1.txt
+  //Ctrl+D
+  cat>file2.txt
+  //Crtl+D
+2. Concatenate File1 & File2 and Redirect the output to a new file file
