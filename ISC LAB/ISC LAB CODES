@@ -1,0 +1,28 @@
+0. Shortcut to open ubuntu terminal
+    Ctrl + Alt + T
+1. Create Your own directory
+    mkdir directoryName
+2. Change working directory
+    cd requiredDirectory
+3. Display the current working directory(pwd stands for print working directory)
+    pwd
+4. Display the contents of present directory
+    ls
+5. Create a file RED.txt and enter names of 10 students
+    cat>RED.txt
+    (enter required entries)
+    ctrl+d
+6. Append 5 more students names in this list
+    cat>>RED.txt
+    (add required entries)
+    ctrl+d
+7. Display the content of file
+    cat RED.txt
+8. Copy the content of RED.txt into BLACK.txt
+    cp RED.txt BLACK.txt
+9. Rename the File BLACK into WHITE
+    mv BLACK.txt WHITE.txt
+10. Delete the File WHITE.txt
+    rm WHITE.txt
+11. TO clear all inputted commands
+    clear
